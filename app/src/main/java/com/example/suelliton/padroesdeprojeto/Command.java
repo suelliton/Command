@@ -1,0 +1,10 @@
+package com.example.suelliton.padroesdeprojeto;
+
+/**
+ * Created by suelliton on 08/11/2017.
+ */
+
+public abstract class Command {
+    public abstract void execute();
+    public abstract void undo();
+}
