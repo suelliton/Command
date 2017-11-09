@@ -4,7 +4,7 @@ package com.example.suelliton.padroesdeprojeto;
  * Created by suelliton on 08/11/2017.
  */
 
-public class FecharCommand extends Command {
+public class FecharCommand implements Command {
     private Portao portao ;
 
     public FecharCommand(Portao portao){
